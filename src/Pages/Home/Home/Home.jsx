@@ -8,7 +8,6 @@ import Promo from '../Appoinment-promo/Promo';
 import Appoinment from '../Appoinment/Appoinment';
 import Banner from '../Banner/Banner';
 import Gallery from '../Gallery/Gallery';
-import Slick from '../Slick/Slick';
 // import Testimonial from '../Testimonial/Testimonial';
 
 const Home = () => {
@@ -22,10 +21,7 @@ const Home = () => {
            <Dentist />
            <Appoinment />
            <Gallery />
-           {/* <Testimonial />
-           <LatestBlog /> */}
            <Promo />
-           {/* <Slick /> */}
         </>
     );
 };
