@@ -4,7 +4,6 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
-import logo from '../../../Images/logo.png';
 import './Header.css';
 
 const Header = () => {
